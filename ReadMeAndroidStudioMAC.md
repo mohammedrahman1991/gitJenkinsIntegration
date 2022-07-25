@@ -8,7 +8,7 @@ go to path C:\Windows\System32\cmd.exe
 go to terminal and insert command:
 open new port 
 
-java -jar jenkins.war 8080
+java -jar jenkins.war --httpPort=8080
 java -jar jenkins.war 9090
 if 8080 gives error use 9090
 
