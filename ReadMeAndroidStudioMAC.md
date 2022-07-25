@@ -1,6 +1,9 @@
 First login into Jenkins
 go to website login
 
+admin is original password;
+
+
 
 open new Port:
 
@@ -9,14 +12,19 @@ go to terminal and insert command:
 open new port 
 
 java -jar jenkins.war --httpPort=8080
-java -jar jenkins.war 9090
+after this paste this ont browser of choice:  https://localhosts.mobi/8080
+ 
+
+ login id and password; this is ADMIN login and pass, u get it first, so SAVE IT [important]
+
+
 if 8080 gives error use 9090
 
 see statement on CMD:  Jenkins is fully up and running
 jenins is initialized into the specific port
 
-next go to: https://localhosts.mobi/8080
-
+u have gained access to jenkins on port 8080 good job
+save to git hub
 
 
 
