@@ -38,3 +38,91 @@ then let ide install JDK and libraries
 and wait
 
 download ADP
+
+for MAC OS:
+download Homebrew
+google search homebrew
+copy paste link on website onto Command line
+put password and let it download Homebrew
+type brew --version
+check installation is there or not
+once u have Brew installed
+
+go google search Appium
+then click official link 
+scroll down to find commands to install node.js into terminal
+
+copy paste into terminal and install
+type node -v
+check version once installed 
+INSTALL APPIUM copy paste next command from website
+type: npm install -g appium
+tpye next command
+tpye: npm install wd [this downloads appium client]
+
+installation complete
+type appium into command
+u can now RUN apppium
+
+Now install desktop version of appium:
+this will allow u to inspect elements and provide a GUI feelings
+search appium desktop version into google
+go to github page
+download the mac .dmg file
+copy to applications
+run app
+it will say sysstem has found malicious activity and cannot be trusted
+go System Preferences
+go to Security and Pivacy
+under Genral tab
+you will see Open Anyway click on it when it states regarding Appium
+
+Open Appium Desktop Version
+error might come once u try to Run it this is because u have 2 isntances of Port 
+being used
+
+close one.
+either terminal or here and refresh
+u can reopen and Appium will Run 
+
+How to Run on Command Appium:
+type Appium 
+
+either close terminal or desktop client and run in ONE.
+port needs be to free to start appium
+
+Install Appium Doctor to check installation and dependencies
+this is important for testers
+
+go to: https://www.npmjs.com/package/appium-doctor
+follow commands to install:
+
+into command: 
+npm install appium-doctor -g
+type npm audit fix
+fixed any vulnerabilities these are issues pre existing and command adjusts to it
+npm install appium-doctor -g
+
+it will run and install doctor
+check installation"
+type: appium-doctor -v
+coomands should appear
+
+
+test
+type appium-doctor --ios
+
+errors will show that it needs dependencies
+
+u can use brew and fix some
+type brew update
+type brew install carthage 
+
+this will isntall this depenecies problems still needed to fix
+
+more dependecies to install are listed in this error messages
+can be added
+
+for xcrun: error: unable to find utility "simctl" 
+download XCODE
+
