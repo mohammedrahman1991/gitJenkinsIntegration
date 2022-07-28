@@ -1,8 +1,8 @@
 HOW to swtich JAVA jdk on basher
 
-to to mac folder application
+Go to mac folder application
 type command up
-coomand up
+command up
 until u cannot any more
 
 go to MAC computer 
@@ -38,3 +38,9 @@ ANDROID STUIOD should be running fine and u can run TESTs now.
 
 notice: also close other IDE so we can run smoothly
 as these apps require lots of RAM
+
+
+this will fix ANDROID STUDIO and u can run
+but IOS testing still needs fixing 
+error:
+ Error running xcrun simctl
