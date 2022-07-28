@@ -1,128 +1,58 @@
-First login into Jenkins
-go to website login
+ANDROID STUDIO
 
-admin is original password;
+go to terminal type appium
 
+it will run
 
-
-open new Port:
-
-go to path C:\Windows\System32\cmd.exe
-go to terminal and insert command:
-open new port 
-
-java -jar jenkins.war --httpPort=8080
-after this paste this ont browser of choice:  https://localhosts.mobi/8080
- 
-
- login id and password; this is ADMIN login and pass, u get it first, so SAVE IT [important]
+go to android stuio
+click device manager
+rename device Copy NAME
 
 
-if 8080 gives error use 9090
+go to InteliJ ultatime:
 
-see statement on CMD:  Jenkins is fully up and running
-jenins is initialized into the specific port
+-----
 
-u have gained access to jenkins on port 8080 good job
-save to git hub
+open APPIUMbOILER plate
 
-
-
-Here we FIX APPIUM
+-----
 
 
-Step 1: Download Android Studio MAC
-this is similar to InteliJ
-install then OPEN empty 
-then let ide install JDK and libraries
-and wait
+create new package
+go to Readme file
+file apk download link download it
+and paste it to new package
 
-download ADP
-
-for MAC OS:
-download Homebrew
-google search homebrew
-copy paste link on website onto Command line
-put password and let it download Homebrew
-type brew --version
-check installation is there or not
-once u have Brew installed
-
-go google search Appium
-then click official link 
-scroll down to find commands to install node.js into terminal
-
-copy paste into terminal and install
-type node -v
-check version once installed 
-INSTALL APPIUM copy paste next command from website
-type: npm install -g appium
-tpye next command
-tpye: npm install wd [this downloads appium client]
-
-installation complete
-type appium into command
-u can now RUN apppium
-
-Now install desktop version of appium:
-this will allow u to inspect elements and provide a GUI feelings
-search appium desktop version into google
-go to github page
-download the mac .dmg file
-copy to applications
-run app
-it will say sysstem has found malicious activity and cannot be trusted
-go System Preferences
-go to Security and Pivacy
-under Genral tab
-you will see Open Anyway click on it when it states regarding Appium
-
-Open Appium Desktop Version
-error might come once u try to Run it this is because u have 2 isntances of Port 
-being used
-
-close one.
-either terminal or here and refresh
-u can reopen and Appium will Run 
-
-How to Run on Command Appium:
-type Appium 
-
-either close terminal or desktop client and run in ONE.
-port needs be to free to start appium
-
-Install Appium Doctor to check installation and dependencies
-this is important for testers
-
-go to: https://www.npmjs.com/package/appium-doctor
-follow commands to install:
-
-into command: 
-npm install appium-doctor -g
-type npm audit fix
-fixed any vulnerabilities these are issues pre existing and command adjusts to it
-npm install appium-doctor -g
-
-it will run and install doctor
-check installation"
-type: appium-doctor -v
-coomands should appear
+name is app
 
 
-test
-type appium-doctor --ios
 
-errors will show that it needs dependencies
 
-u can use brew and fix some
-type brew update
-type brew install carthage 
+go to Open appium-boilerplate
+this has everything built in TS to run and execute tests
 
-this will isntall this depenecies problems still needed to fix
+go to config file:
+wdio.android.app.config.ts
 
-more dependecies to install are listed in this error messages
-can be added
+change android deviename to one that matches on android studio
+change platformversion to one that is same
 
-for xcrun: error: unable to find utility "simctl" 
-download XCODE
+change path file name to "one that u renamed after pasting as clone"
+ie: app
 
+this is key...
+
+-------
+now u can run the test on inteeliJ terminal:
+
+NOw to run go to READ ME see the command:
+find where it says run single test:
+
+type into Terminal:
+npm run android.app 
+
+
+check emultator on Android Studio u will see it run many tests those that were requested in the Test file in the appium boiler directory
+
+this is automated and organized
+look at READ ME if any issues arrive
