@@ -84,3 +84,43 @@ run code see if it runs
 any errors read and find error
 and fix slowly
 be calm and collected
+
+can also extract entire Response into String
+
+use .extract().response().asString()
+
+but u can to extract it all into a variable
+so name entire thing a variable
+start from beggining
+string response = entire code
+take out 2nd log
+now u can run with system.out.println(response)
+it will print extracted JASON response that was stored into response var
+
+----
+next key code for autoamtion
+how do i pass JSON so we can extract class IP or place id
+
+use JsonPath j = new JSONPATH(response)
+this is a method that helps parse json
+it will take input as a string
+import Json path
+now use String response for parameter in the jsonpath method after calling it from the
+import
+now u can use js.
+which are different methods to Parse the string(response)
+this is JSON extracted data 
+
+next we are taking JSON response and extracting specific details
+so we use the method above
+JSONPath
+then we use js.getString ("place_ID")
+the placeid here must be stored as a variable then printed
+to show if we succeffully extracted the detiail or not
+
+this is simple coding
+
+we are using js.methods
+place_ID is a path provided on JSON response in POstman which we retrieved
+using Rest Assured
+
