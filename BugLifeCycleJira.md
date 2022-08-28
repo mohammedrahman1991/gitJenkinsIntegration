@@ -44,3 +44,5 @@ or label previous bug as [Reopened]
 
 if this bug report was previously made by another QA LABel as [Duplicate]
 if priority is low, and we can set it to next sprint [Deferred]
+
+more details: https://www.guru99.com/defect-life-cycle.html
