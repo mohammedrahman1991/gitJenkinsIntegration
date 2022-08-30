@@ -31,3 +31,8 @@ surefile plugin is reading hte xml
 its realizing that its in the testng file
 so it runs into testng
 to run the test for me
+
+
+the reason why we need test to run through command line
+is because we need it to get integrated via Jenkins
+and jenins can only acess the code or test scripts using terminal
