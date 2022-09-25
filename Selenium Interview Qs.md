@@ -245,6 +245,10 @@ dropdown.selectByVisibleText(Text);
 dropdown.selectByIndex(Index);
 dropdown.selectByValue(Value);
 
+option 2: use abolsoute Xpath or relative xpath and get the element directly
+option 3: use ArrayLIst webelements use for each loop to iterate through and get the element
+option 4: use streams method and iterate through the arraylist of webelements streams>filter>sort.
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 43. How to capture Screenshot in Selenium WebDriver?:
@@ -311,3 +315,65 @@ To resize the browser window to particular dimensions, we use 'Dimension' class 
 
 58. How To Scroll Web Page Down Or UP Using Selenium WebDriver?
 JavaScript scrollBy() method scrolls the document by the specified number of pixels.
+
+59. How To Perform Right Click Action (Context Click) In Selenium WebDriver?
+We use Actions class in Selenium WebDriver to do Right-Click (Context Click) action.
+
+60. How To Perform Double Click Action In Selenium WebDriver?
+We use Actions class to do Double click action in selenium.
+61. How To Perform Drag And Drop Action in Selenium WebDriver?
+In some applications, we may face a situation to automate drag and drop an item from one location to another location. We could not achieve these using basic elements. Selenium has provided an "Actions" class to handle this kind of scenarios. We overcome this kind of scenarios such as drag and drop using Actions Class.
+To achieve this, we use Actions class in Selenium WebDriver.
+62. How To Highlight Element Using Selenium WebDriver?
+By using JavascriptExecutor interface, we could highlight the specified element
+63. What is Continuous Integration?
+Continuous Integration is abbreviated as CI. Continuous Integration is a development practice which aims to make sure the correctness of a software. After each commit, a suite of tests run automatically and test the software to ensure whether the software is running without any breaks. If any test fails, we will get immediate feedback say "build is broken".
+In simple words, continuous integration is a process of verifying the correctness of a software.
+Some of the continuous integration tools are Jenkins, TeamCity, Bamboo, Travis, Circle Ci, Bitbucket.
+64. How to achieve Database testing in Selenium?
+As we all know Selenium WebDriver is a tool to automate User Interface. We could only interact with Browser using Selenium WebDriver.
+Sometimes, we may face a situation to get the data from the Database or to modify (update/delete) the data from the Database. If we plan to automate anything outside the vicinity of a browser, then we need to use other tools to achieve our task. To achieve the Database connection and work on it, we need to use JDBC API Driver.
+The Java Database Connectivity (JDBC) API provides universal data access from the Java programming language. Using the JDBC API, you can access virtually any data source, from relational databases to spreadsheets and flat files. It lets the user connect and interact with the Database and fetch the data based on the queries we use in the automation script. JDBC is a SQL level API that allows us to execute SQL statements. It creates a connectivity between Java Programming Language and the database.
+Using JDBC Driver we could do the following
+i. Establish a Database connection
+ii. Send SQL Queries to the Database
+iii. Process the results
+
+65. How to delete Browser Cookies with Selenium Web Driver?
+driver.Manage().Cookies.DeleteAllCookies();
+Does selenium has execution engine?
+Selenium does not execute the script of its own. It depends on third party tool, like junit, Testng, java main method. We avoid java main method because it does not have a report generator facilities.
+Does Selenium has excel reading method?
+No, Selenium uses Apache poi or jxl to read the data from excel and it uses properties file to read the data.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+66. What is TestNg?
+It is TestnextGeneration.It is a testing framework simply design to simplify the board range of testing need. It is a unit level and integration level framework.It is designed only for java. It is available in the form of jar file.
+Advantages of TestNg
+1- Parallel execution of test methods
+2-Dependency of one test method over other method
+3-Assign Priority over the test method
+4-Grouping of test method in to test groups
+5-Parameterization of the test cases using @Parameter annotation
+6-Datadriven method using @DataProvider
+7-Different Assertion that helps checking the actual result with expected result
+8-Detail (HTML) reports. Generates report in a readable format . Webdriver has no native mechanism for generating reports.
+9- TestNg listner class - to generate custom logs and reports
+Data Provider
+provide multiple data to the test. using data provider annotation.
+@DataProvider(name="SearchProvider")
+public Object[][] getDataFromDataprovider(){
+return new Object[][]
+{
+{ "Guru99", "India" },
+{ "Krishna", "UK" },
+{ "Bhupesh", "USA" }
+};
+67. What is PageObject model?
+In the Page Object Model Design Pattern, each web page is represented as a class. All the objects related to a particular page of a web application are stored in a class.
+Apache Poi
+Apache POI is a popular API that allows programmers to create, modify, and display MS Office files using Java programs.Read the data from Xml file and write the data to xml file
+What is Page Factory?
+Page Factory is a way to initialize the web elements you want to interact with within the page object when you create an instance of it.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
